@@ -1,0 +1,51 @@
+.profile-img{
+    height: 100px;
+    width: 100px;
+    border-radius: 360px;
+    object-fit: cover;
+}
+.head-container{
+    width: 720px;
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+}
+.w50{
+    width: 360px;
+}
+.align-right{
+    text-align: right;
+}
+.title{
+    color: blueviolet;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+@media(min-width: 720px){
+    .head-container{
+        width: 720px;
+        margin: 50px auto;
+        display: flex;
+        align-items: center;
+    }
+    .w50{
+        width: 360px;
+    }
+    
+}
+@media(max-width:720px){
+    .head-container{
+        
+        /* background-color: lightgray; */
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap-reverse;
+        margin: 50px auto;
+        width: 400px;
+        text-align: center; 
+        align-items: center;
+    }
+    .w50{
+        text-align: center;
+    }
+}

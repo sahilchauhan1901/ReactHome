@@ -32,7 +32,52 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.Navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 6px 10%;
+}
+
+.NavLinks {
+  display: flex;
+  align-items: center;
+
+}
+
+.Btn {
+  background-color: black;
+  color: white;
+  margin: 0;
+  padding: 14px 26px;
+  border-radius: 16px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.link {
+  margin: 15px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: darkgray;
+}
+
+.Btn:hover {
+  text-decoration: none;
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+}
+
+.container {
+  margin: 6px 10%;
 }
